@@ -22,18 +22,17 @@ class Sum:
         result= self.num1 + self.num2
         return result
         
+obj = A
+obj.display_name()
 
-# obj = A
-# obj.display_name()
+obj2 = B
+obj2.print_name()
+obj2.display_name()
 
-# obj2 = B
-# obj2.print_name()
-# obj2.display_name()
-
-# obj3 = C
-# obj3.print_data()
-# obj3.print_name()
-# obj3.display_name()
+obj3 = C
+obj3.print_data()
+obj3.print_name()
+obj3.display_name()
 
 obj4 = Sum(1,3)
 print(obj4.add())
