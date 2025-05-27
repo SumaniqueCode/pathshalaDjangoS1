@@ -4,15 +4,13 @@ class A:
         print("This is class A")
 
 
-class B(A):  # class B inherits from class A
+class B(A):  # class B inherits from class A, single level inheritance
     def print_name():
         print("This is class B")
 
-
-class C(B):  # class C is derived from class B
+class C(B):  # class C is derived from class B, multi-level inheritance
     def print_data():
         print("This is class C")
-
 
 obj = A
 obj.display_name()
